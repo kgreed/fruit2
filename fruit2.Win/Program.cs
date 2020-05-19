@@ -22,7 +22,7 @@ namespace fruit2.Win {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 			DevExpress.Utils.ToolTipController.DefaultController.ToolTipType = DevExpress.Utils.ToolTipType.SuperTip;
-            EditModelPermission.AlwaysGranted = System.Diagnostics.Debugger.IsAttached;
+           // EditModelPermission.AlwaysGranted = System.Diagnostics.Debugger.IsAttached;
             if(Tracing.GetFileLocationFromSettings() == DevExpress.Persistent.Base.FileLocation.CurrentUserApplicationDataFolder) {
                 Tracing.LocalUserAppDataPath = Application.LocalUserAppDataPath;
             }
